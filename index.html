@@ -169,7 +169,7 @@
 
     .slide {
       position: absolute;
-      top: 0;
+      top: 10px;
       left: 0;
       width: 100%;
       height: 100%;
@@ -185,7 +185,7 @@
     .card-back p {
       flex-grow: 1;
       overflow-y: auto;
-      margin: 10px 20px;
+      margin: 20px 20px;
       font-size: 14px;
       color: #000000;
       text-align: left;
@@ -239,6 +239,7 @@
       </div>
       <p id="description">
 As you step further into the BR Area, you’ll encounter an old kedai runcit (convenience store). Does it bring back any childhood memories? This decoration concept aims to evoke nostalgia, creating a space where colleagues can find joy and warmth in the office. It also reflects Senheng’s rapid expansion in the 2000s, when the company introduced the chain store concept, implemented a fixed price policy, and launched a customer loyalty program—key steps in becoming a trusted household name. The space symbolizes accessibility and Senheng’s growing presence across Malaysia, while evoking happy memories of local convenience stores from our childhood.
+
       </p>
     </div>
   </div>
@@ -284,11 +285,12 @@ As you step further into the BR Area, you’ll encounter an old kedai runcit (co
   const description = document.getElementById('description');
 
   langEn.addEventListener('click', () => {
-    description.textContent = `As you step further into the BR Area, you’ll encounter an old kedai runcit (convenience store). Does it bring back any childhood memories? This decoration concept aims to evoke nostalgia, creating a space where colleagues can find joy and warmth in the office. It also reflects Senheng’s rapid expansion in the 2000s, when the company introduced the chain store concept, implemented a fixed price policy, and launched a customer loyalty program—key steps in becoming a trusted household name. The space symbolizes accessibility and Senheng’s growing presence across Malaysia, while evoking happy memories of local convenience stores from our childhood.`;
+    description.textContent = `As you step further into the BR Area, you’ll encounter an old kedai runcit (convenience store). Does it bring back any childhood memories? This decoration concept aims to evoke nostalgia, creating a space where colleagues can find joy and warmth in the office. It also reflects Senheng’s rapid expansion in the 2000s, when the company introduced the chain store concept, implemented a fixed price policy, and launched a customer loyalty program—key steps in becoming a trusted household name. The space symbolizes accessibility and Senheng’s growing presence across Malaysia, while evoking happy memories of local convenience stores from our childhood.
+`;
   });
 
   langZh.addEventListener('click', () => {
-    description.textContent = `蛇象征着智慧和适应能力，象征着Senheng能够灵活应对市场挑战，通过智慧和创新取得成功。“蛇爬行”的理念象征着公司和员工不断进步和追求卓越，暗示公司在零售行业的顶端有着坚实的立足点。`;
+    description.textContent = `继续步入BR的区域，您将看到一家老旧的便利商店。这个布置概念是想要勾起大家儿时的回忆，创造一个让同事们在办公室能够找到快乐与温暖的空间。在2000年代，Senheng引入了连锁店概念，实施了不二价政策，并推出了客户忠诚计化，快速扩张，使Senheng成为了受信赖的家喻户晓的品牌。这个空间象征着Senheng在社区的便利以及在马来西亚不断增长的影响力，同时唤起了我们童年时光中的本地便利店的快乐回忆。`;
   });
 </script>
 
